@@ -1,0 +1,7 @@
+---
+puppet_enterprise::master::puppetserver::jruby_max_active_instances: 4
+ucm_profiles::seclinux::sysctl_settings:
+  kernel.exec-shield:
+    val: '0'
+  kernel.randomize_va_space:
+    val: '0'
